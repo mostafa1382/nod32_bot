@@ -245,11 +245,11 @@ function create_config( )
     "time",
     "version"
     },
-	    sudo_users = {},--Sudo users
+	    sudo_users = {193786098},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [
-channel :utronallteam
+channel :@utronallteam
 sodu : @totmy
 ]],
     help_text_realm = [[
