@@ -245,14 +245,12 @@ function create_config( )
     "time",
     "version"
     },
-	    sudo_users = {158990680},--Sudo users
+	    sudo_users = {},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[
-https://github.com/BH-YAGHI/NOD32-BOT.git
-
-channel : @Nod32team
-sodu : @behrooZyaghi
+    about_text = [
+channel :utronallteam
+sodu : @totmy
 ]],
     help_text_realm = [[
 Realm Commands:
@@ -317,11 +315,11 @@ Only sudo users can run this command
 !bc 123456789 Hello !
 This command will send text to [group_id]
 
-ch: @Nod32team
+ch: @utronallteam
 
 ]],
     help_text = [[
-NOD32 Commands list :
+ utronall Commands list :
  
 1-banhammer list ^
  
@@ -500,28 +498,13 @@ NOD32 Commands list :
 !filterlist
 لیست کلمات فیلتر شده
 
-11-bot number & support ^
-
-!botnumber
-دریافت شماره ربات
-
-!support
-دعوت سازنده ربات به گروه
-(در صورت وجود مشکل)
-
-!version
-ورژن ربات
-
-!feedback (text)
-ارسال نظرات به سازنده
 
 you can use both "/" and "!" 
 .شما میتوانید از ! و / استفاده کنید
 
-channel: @Nod32Team
+channel: @utronallteam
 
-G00D LUCK ^_^
-]]
+
    }
   serialize_to_file(config, './data/config.lua')
   print('saved config into ./data/config.lua')
